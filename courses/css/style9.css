@@ -1,0 +1,117 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p{
+  text-align: center;
+}
+
+
+nav {
+  position: relative;
+  height: 50px;
+}
+
+ .d1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+ a.a1 {
+  color: limegreen;
+}
+
+ a.a1:hover {
+  background-color: royalblue;
+  color: black;
+  border-radius: 6px;
+}
+
+
+
+  section{
+    display: flex;
+    justify-content: center;
+}
+.container {
+ height: 700px;
+ width: 900px;
+ display: grid;
+
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr  ;
+
+ grid-template-areas:
+  "box1 box1 box2"
+  "box3 box3 box3"
+  "box4 box5 box5"
+  
+}
+.box{
+ margin: 5px;
+ box-shadow: 0px 0px 4px black;
+ background-color: grey;
+
+}
+
+.box1 {
+ grid-area: box1;
+ text-align: center;
+}
+.box2 {
+ grid-area: box2;
+ text-align: center;
+}
+.box3 {
+ grid-area: box3;
+ text-align: center;
+}
+.box4 {
+ grid-area: box4;
+ text-align: center;
+}
+.box5 {
+  grid-area: box5;
+  text-align: center;
+ }
+ 
+
+
+
+
+
+footer {
+  background-color: rgb(32, 216, 216);
+  border-radius: 50px;
+  box-shadow: 1px 3px 3px black;
+}
+
+footer div.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+footer div div.d2 {
+  text-align: center;
+}
+
+footer div div li.l2 {
+  display: inline;
+  padding: 4px;
+}
+footer div div p {
+  font-weight: bold;
+}
+footer div div li.l4{
+    font-size: x-large;
+}
